@@ -68,5 +68,5 @@ func part2(filename string) (int, error) {
 		return 0, err
 	}
 
-	return floor, nil
+	return 0, errors.New("basement is never reached")
 }
